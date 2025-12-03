@@ -23,11 +23,6 @@ const Login = () => {
     getUsuarios();
   }, []);
 
-  /* 
-    try - catch 
-    then - catch
-  */
-
   let redirection = useNavigate();
   function iniciarSesion() {
     if (email == "correo@correo.com" && password == "root") {
